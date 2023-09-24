@@ -11,5 +11,6 @@ public class ArithOperation
         System.out.println("enter your ab value");
         b=scan.nextInt();
         c=a+b;
-       System.out.println("your add value=");
+       System.out.println("your add value="+c);
+    }
 }
