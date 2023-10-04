@@ -27,17 +27,18 @@ public class PrimeNumber
        System.out.println(n+"is not prime num");
        flag=1;
        break;
-
+       
        }
-       }
-
-       if(flag==0)
+       else if(flag==0)
        {
        System.out.println(n+"is  prime num");
        }
        }
+
        }
        }
+       }
+       
 
        
 
