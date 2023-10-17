@@ -2,10 +2,15 @@ package CoreJava.OOP;
 
 public class TestSong {
     public static void main(String[] args) {
+   // String name="abhioooo";
+    //   String lyrics="Malama Pitha Pithadhe Malama Pitha Pithadhe Mala Pitha Pithadhe Malama Pithadhe Hey Malama Pitha Pithadhe Malama Pitha Pithadhe Mala Pitha Pithadhe Malama Pithadhe";
+int a=10;
+System.out.println(a);
 
-
-        Song s1 = new Song();
-        Song s2 = new Song();
+        // Song s1 = new Song();
+        // Song s2 = new Song();
+        Song s1=new Song();
+        Song s2=new Song();
         s1.setSongName("abhioooo");
         s1.setLyrics("Malama Pitha Pithadhe Malama Pitha Pithadhe Mala Pitha Pithadhe Malama Pithadhe Hey Malama Pitha Pithadhe Malama Pitha Pithadhe Mala Pitha Pithadhe Malama Pithadhe");
         s1.playSong();

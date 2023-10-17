@@ -27,7 +27,7 @@ public class Car {
             System.out.println("check the fuel Qty");
         }
     }
-    public void driven(){
+    public void drive(){
         if(iscarStarted ==true) {
             if (fuelQty > 0) {
                 System.out.println("I am drive a car name " + name);

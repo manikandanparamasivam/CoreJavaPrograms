@@ -7,7 +7,7 @@ public class TestCar {
         c.setFuelQty(2);
         c.setcarStarted(true);
         c.start();
-        c.driven();
+        c.drive();
         System.out.println("car name "+c.getName()+'\n'+"fuel Qty "+ c.getFuelQty()+'\n'+"car status "+c.getiscarStarted());
         c.driven();
         System.out.println("car name "+c.getName()+'\n'+"fuel Qty "+ c.getFuelQty()+'\n'+"car status "+c.getiscarStarted());
