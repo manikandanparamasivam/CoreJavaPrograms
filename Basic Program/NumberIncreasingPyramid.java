@@ -2,10 +2,9 @@ public class NumberIncreasingPyramid {
     public  static void main(String[] args){
         int n=5;
         String t="";
-        for(int i=1;i<=n;i++){
-            for(int j=n;j>=1;j--){
+        for(int i=1;i<=n;i--){
+            for(int j=n;j>=i;j++){
                 if(i>=j){
-                    
                     System.out.print(i);
                      t=t+i;
                 }else{
@@ -13,6 +12,7 @@ public class NumberIncreasingPyramid {
                 }
             }
             System.out.println();
+            System.out.print(t);
         }
     }
 }
