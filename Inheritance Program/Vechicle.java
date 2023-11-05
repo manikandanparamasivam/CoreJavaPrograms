@@ -2,7 +2,13 @@ public class Vechicle
 {
     private String vehname;
     public void setvehname(String vehname){
-        this.vehname=vehname;
+        if(vehname!=null&&!vehname.equals("")){
+           this.vehname=vehname;
+        }
+        else{
+            System.out.println("enter correct value");
+        }
+        
     }
     public String getvehname(){
         return vehname;
