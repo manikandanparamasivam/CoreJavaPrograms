@@ -1,14 +1,19 @@
 public class Tv extends Device{
     public Tv(){
-        System.out.println("no args constructor");
+        System.out.println("no tv args constructor");
     }
+    public Tv(String n){
+        super(n);
+        System.out.println(" tv parameter constructor");
+    }
+
     public void watch(){
-        System.out.println("watch a movie");
+        System.out.println(getname()+"watch a movie");
     }
     public void doSomthing(){
-        System.out.println("this a override tv class");
+        System.out.println(getname()+"this a override tv class");
     }
     public void switchChannel(){
-        System.out.println("switch a channel");
+        System.out.println(getname()+"switch a channel");
     }
 }   

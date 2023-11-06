@@ -1,8 +1,16 @@
 public class Device{
-    String name;
+     private String name;
+     public void setname(String name){
+        this.name=name;
+     }
+     public String getname(){
+        return name;
+     }
+     
     public Device(){
-        System.out.println("this a emty constructor");
-    }
+        System.out.println("this a  device emty constructor");
+    } ..
+
     public Device(String str){
         name=str;
         System.out.println("this a parameter constructor");

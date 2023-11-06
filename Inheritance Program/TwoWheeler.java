@@ -1,4 +1,4 @@
-public class TwoWheeler extends Car {
+public class TwoWheeler extends Vechicle {
     public void start(){
         System.out.println(getvehname()+"this Start differnt");
     }
