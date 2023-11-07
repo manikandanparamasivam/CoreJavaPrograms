@@ -1,12 +1,11 @@
 public class Personb{
-     private String name;
-
+    private String name;
     Account acc;
     private String productname;
     private double amount;
     
     public void setname(String name){
-        this.productname=productname;
+        this.name=name;
     }
     public String getname(){
         return name;
@@ -30,9 +29,10 @@ public class Personb{
        // Account a=(Account) acc;
         System.out.println(acc.getbalance());
         if(acc.checkbalance()>amount){
-        System.out.println(name+"give this Item");
+        System.out.println(productname+"give this Item");
         acc.withdraw(amount);
-         System.out.println(amount+"this price a item");
+        System.out.println(amount+"this price a item");
+         System.out.println(acc.getbalance()+"after the balance");
         }
         else{
             System.out.println("your bank balance lower then");
