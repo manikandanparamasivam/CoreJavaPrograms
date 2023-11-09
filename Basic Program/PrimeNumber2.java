@@ -17,7 +17,7 @@ public static boolean isprime(int num)
     if(num==0||num==1) return false;
     if(num==2||num==3||num==5||num==7) return true;
     if((num&1)==0)return false;
-    for(int i=3 ;i<num/2;i+=2)
+    for(int i=3;i<num/2;i+=2)
     {
         if(num%i==0)
         return false; 
