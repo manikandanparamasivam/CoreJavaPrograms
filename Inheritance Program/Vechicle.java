@@ -1,7 +1,10 @@
-public class Vechicle
+public class  Vechicle 
 {
-    private String vehname;
-    public void setvehname(String vehname){
+    private final String vehname;
+    public Vechicle(String a){
+        this.vehname=a;
+    }
+   /* public void setvehname(String vehname){
         if(vehname!=null&&!vehname.equals("")){
            this.vehname=vehname;
         }
@@ -9,18 +12,18 @@ public class Vechicle
             System.out.println("enter correct value");
         }
         
-    }
+    }*/
     public String getvehname(){
         return vehname;
     }
 
-    public void start(){
-        System.out.println("A vechile"+vehname+" started");
+    public static void start(){
+        System.out.println("A vechile started");
     }
     public void drive(){
         System.out.println("A vechile"+vehname+"drive");
     }
-    public void stop(){
+    public final void  stop(){
         System.out.println("A vechile"+vehname+"Stop");
     }
 
