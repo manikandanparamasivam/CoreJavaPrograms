@@ -15,7 +15,7 @@ public  class Animal{
     public void sleep(){
         System.out.println(name+" sleep...zzzz..zzzz ..Snores");
     }
-    public void dance(){
-        System.out.println(name+" dance...&");
+    public static void dance(){
+        System.out.println(" dance...&");
     }
 }

@@ -146,11 +146,11 @@ public class AlphaBeta1{
                         }
                         else{
                              char[] c=words.toCharArray();
+                             char[] m=hideWords.toCharArray();
                              int j;
-                             for(j=0;j<3;j++){
+                             for(j=0;j<4;j++){
                                 String n=String.valueOf(c[j]);
                                 if(hideWords.contains(n)){
-                                    char[] m=hideWords.toCharArray();
                                     if(m[j]==c[j]){
                                         alpha++;
                                     }else{
