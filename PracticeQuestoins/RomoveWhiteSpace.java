@@ -8,6 +8,5 @@ public class RomoveWhiteSpace{
        //cdc words=words.split("\\s","");
         words=words.replaceAll("\\s","");
         return words;
-
     }
 }

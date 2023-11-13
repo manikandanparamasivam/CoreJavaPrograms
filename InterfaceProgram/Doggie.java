@@ -11,7 +11,7 @@ public class Doggie extends Jannvar implements Pet{
         System.out.println("Doggie"+name+"eating bone");
     }
     
-    // public void play(){
+     public void play(){
         System.out.println("Doggie"+name+"playing by catching");
     }
     
