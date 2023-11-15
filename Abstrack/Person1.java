@@ -7,7 +7,6 @@ public class Person1{
         d.doSomething();
     }
 
-
     public static void main(String[] args){
         MobilPhone m=new MobilPhone();
         Person1 p=new Person1();
