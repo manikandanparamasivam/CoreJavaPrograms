@@ -1,8 +1,8 @@
 import java.util.Scanner;
 public class ControlProgram14
 {
-    public static void main(String[] args);
-    {
+    public static void main(String[] args)
+    {}
         static boolean isPowerOfTwo(int n)
     {
         if (n == 0)
@@ -16,4 +16,3 @@ public class ControlProgram14
         return true;
     }
     }
-}

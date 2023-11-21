@@ -1,4 +1,4 @@
-package CoreJava;
+
 import java.util.Scanner;
 public class SumProgram {
     public static void main(String[] args) {
